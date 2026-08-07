@@ -22,7 +22,7 @@ TEST_CASES_PATH = os.path.join(PROJECT_ROOT, FILE_NAME)
 BASE_RESULT_PATH = os.path.join(PROJECT_ROOT, "Result")
 
 # Create timestamp folder name
-timestamp = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+timestamp = datetime.now().strftime("%d-%mgit remote -v-%Y_%H-%M-%S")
 
 # Final result folder path
 RESULT_PATH = os.path.join(BASE_RESULT_PATH, timestamp)
