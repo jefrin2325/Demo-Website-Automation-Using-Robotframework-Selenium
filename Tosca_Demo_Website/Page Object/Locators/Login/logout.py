@@ -1,0 +1,1 @@
+logout_button="xpath=//a[@class='ico-logout']"
